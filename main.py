@@ -12,19 +12,19 @@ import time
 
 
 Bot = Client(
-    "Conan76-Simple-IPTV-m3u-to-Video-Bot",
-    bot_token = "5584471433:AAGEMwqhObGVq5axbuNbQkDkFYRgMOn5g1E",
-    api_id = 16340229,
-    api_hash = "abe3c7eadd57f585bf975045639833c5"
+    "Simple-IPTV-m3u-to-Video-Bot",
+    bot_token = "",
+    api_id = ,
+    api_hash = ""
 )
 
 
 START_TEXT = """<b><i>Hello</i></b> {}
-<b><i>This is a Bot Created for Website Works of TN.</i></b>
+<b><i>Bye Bye... </i></b>
 
 > `{}`
 
-<b>Made by @conan7612</b>"""
+<b>Made by TeamTCI</b>"""
 
 
 
@@ -42,7 +42,7 @@ CHANNELS_TEXT = """<b>Here are the List of Channels : </b>
 SITE_BUTTON = [
     InlineKeyboardButton(
         text='WEBSITE',
-        url='https://toon-nation.blogspot.com'
+        url='Telugucartoonindia.com'
     )
 ]
 
