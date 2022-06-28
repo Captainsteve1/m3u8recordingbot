@@ -13,18 +13,18 @@ import time
 
 Bot = Client(
     "Conan76-Simple-IPTV-m3u-to-Video-Bot",
-    bot_token = "5584471433:AAGEMwqhObGVq5axbuNbQkDkFYRgMOn5g1E",
-    api_id = 16340229,
-    api_hash = "abe3c7eadd57f585bf975045639833c5"
+    bot_token = "5119065187:AAEJQQrEqcw5I6mnCoWWhwq-1lSMjwWshlI",
+    api_id = 5441410,
+    api_hash = "a1a4fe7d23328f419d98a58339fd9980"
 )
 
 
 START_TEXT = """<b><i>Hello</i></b> {}
-<b><i>This is a Bot Created for Website Works of TN.</i></b>
+<b><i>This is a Bot Created for Website Works of PS.</i></b>
 
 > `{}`
 
-<b>Made by @conan7612</b>"""
+<b>Made by Poke Sensai</b>"""
 
 
 
