@@ -11,8 +11,8 @@ import subprocess
 
 
 class config:
-    AUTH_USERS = [1486161657 , 1984763765 , 2056092603]
-    ADMIN_USERS = [1486161657 , 1984763765 , 2056092603]
+    AUTH_USERS = [1451257129]
+    ADMIN_USERS = [1451257129]
     LINK_JSON = "https://vigorous-kirch-074e44.netlify.app/dark_night.json"
 
 
