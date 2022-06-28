@@ -56,50 +56,7 @@ def channel_list(bot, update):
         response = urlopen(url)
         data_json = json.loads(response.read())
 
-        channelsList = "Hungama
-MarvelHQ
-CN
-Disney
-Nick
-DisneyJunior
-Sonic
-Pogo
-DKids
-NickJr
-SonyYay
-SonyYayHindi
-SonyYayTamil
-SonyYayTelugu
-DiscoveryKids
-DKidsHindi
-DKidsTamil
-DisneyInternationalHD
-CNHindi
-CNTamil
-CNTelugu
-SonicHindi
-SonicTamil
-SonicTelugu
-SonicMalayalam
-SonicBangla
-SonicMarathi
-SonicKannada
-NickHindi
-NickTamil
-NickTelugu
-NickBangla
-NickMalayalam
-NickMarathi
-NickKannada
-CNHD+Tamil
-CNHD+Telugu
-PogoTamil
-PogoHindi
-Gubbare
-DSCVDKidsHindiAudio
-ShemarooTV
-NickJunior
-"
+      channelsList = ""
         for i in data_json:
           channelsList += f"{i}\n"
 
