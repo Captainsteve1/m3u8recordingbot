@@ -25,7 +25,7 @@ jobs:
       - name: erro404
         timeout-minutes: 350
         continue-on-error: true
-        run: python3 -m bot
+        run: python3 main.py
         env:
           APP_ID: ${{ secrets.APP_ID }}
           API_HASH: ${{ secrets.API_HASH }} 
@@ -36,6 +36,6 @@ jobs:
 
       - name: Run dispatch_event.
         run: |
-          python main.py
+          python3 main.py
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}    
