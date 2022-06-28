@@ -13,9 +13,9 @@ import time
 
 Bot = Client(
     "Simple-IPTV-m3u-to-Video-Bot",
-    bot_token = "",
-    api_id = ,
-    api_hash = ""
+    bot_token = "5119065187:AAEJQQrEqcw5I6mnCoWWhwq-1lSMjwWshlI",
+    api_id = 5441410,
+    api_hash = "a1a4fe7d23328f419d98a58339fd9980"
 )
 
 
@@ -24,7 +24,7 @@ START_TEXT = """<b><i>Hello</i></b> {}
 
 > `{}`
 
-<b>Made by TeamTCI</b>"""
+<b>Made by Sushanth</b>"""
 
 
 
@@ -42,7 +42,7 @@ CHANNELS_TEXT = """<b>Here are the List of Channels : </b>
 SITE_BUTTON = [
     InlineKeyboardButton(
         text='WEBSITE',
-        url='Telugucartoonindia.com'
+        url='@PokeSensei'
     )
 ]
 
@@ -56,7 +56,50 @@ def channel_list(bot, update):
         response = urlopen(url)
         data_json = json.loads(response.read())
 
-        channelsList = ""
+        channelsList = "Hungama
+MarvelHQ
+CN
+Disney
+Nick
+DisneyJunior
+Sonic
+Pogo
+DKids
+NickJr
+SonyYay
+SonyYayHindi
+SonyYayTamil
+SonyYayTelugu
+DiscoveryKids
+DKidsHindi
+DKidsTamil
+DisneyInternationalHD
+CNHindi
+CNTamil
+CNTelugu
+SonicHindi
+SonicTamil
+SonicTelugu
+SonicMalayalam
+SonicBangla
+SonicMarathi
+SonicKannada
+NickHindi
+NickTamil
+NickTelugu
+NickBangla
+NickMalayalam
+NickMarathi
+NickKannada
+CNHD+Tamil
+CNHD+Telugu
+PogoTamil
+PogoHindi
+Gubbare
+DSCVDKidsHindiAudio
+ShemarooTV
+NickJunior
+"
         for i in data_json:
           channelsList += f"{i}\n"
 
