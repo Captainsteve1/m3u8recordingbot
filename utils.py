@@ -11,9 +11,9 @@ import subprocess
 
 
 class config:
-    AUTH_USERS = [5521710836 , 1451257129 , 1451257129]
-    ADMIN_USERS = [5521710836 , 1451257129 , 1451257129]
-    LINK_JSON = "https://gist.githubusercontent.com/Captainsteve1/21fb755cd48557486f4d79166f72c8fe/raw/b88b6aa2e9cc09ba135be73429390f66bf5ff24a/Steve.json"
+    AUTH_USERS = [1615607413 , 1451257129 , 829259422]
+    ADMIN_USERS = [1615607413 , 1451257129 , 829259422]
+    LINK_JSON = "https://vigorous-kirch-074e44.netlify.app/test.json"
 
 
 
