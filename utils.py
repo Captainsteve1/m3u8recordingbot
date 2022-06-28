@@ -98,4 +98,5 @@ def multi_rip(client, message, streamUrl, channel, recordingDuration, language, 
     # stdout, stderr = process.communicate()
     subprocess.run(cmd)
 
-    return filename    
+    return filename  
+  PokeSensei
